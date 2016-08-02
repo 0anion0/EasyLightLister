@@ -2,7 +2,7 @@
 import c4d,os
 
 
-PLUGIN_ID           = 1000008 # Testing id ONLY!!!!!!!
+PLUGIN_ID           = 1037828
 TAG_ID_OCTANE       = 1029526
 TAG_ID_ARNOLD       = 1029989
 TAG_ID_VRAY         = 1020441
@@ -121,7 +121,7 @@ class mainDialog(c4d.gui.GeDialog):
     def CreateLayout(self):
         self.lm.searchLightInHierarchy(self.doc.GetFirstObject())
 
-        self.SetTitle('Light Lister')
+        self.SetTitle('Easy Light Lister v1')
         self.SetTimer(500)
 
         self.GroupBeginInMenuLine()
